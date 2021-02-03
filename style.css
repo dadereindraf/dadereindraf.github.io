@@ -411,6 +411,65 @@ footer{
 
 }
 
+@media (max-width: 425px){
+    .nav-links{
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-link{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .content-about {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .content-about img {
+        width: 200px;
+        margin: 0;
+        margin-bottom: 20px;
+        box-shadow: 0px 5px 5px black;
+    }
+
+    .content-about p {
+        text-align: justify;
+        margin-left: -30px;
+    }
+
+    .cta-all {
+        margin: 0 25%;
+    }
+
+    .port-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port-img img {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
 @media (max-width: 375px){
 
     .text-presentation h1{

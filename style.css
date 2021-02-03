@@ -308,3 +308,144 @@ footer{
     margin: 0 10px;
 }
 
+
+/* responsive breakpoints */
+@media (max-width: 1024px){
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .text-presentation h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .section-title h2{
+        font-size: 30px;
+    }
+
+    .content-about {
+        display: flex;
+        justify-contetnt: cener;
+        align-items: center;
+    }
+
+    .content-about img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .content-about p{
+        font-size: 16px;
+    }
+
+    .cta-all{
+        font-size: 16px;
+    }
+
+    /* pro */
+    .port-img img{
+        width: 500px;
+    }
+
+    .port-text p{
+        font-size: 16px;
+    }
+
+    .cta-port{
+        font-size: 16px;
+    }
+
+    .sc{
+        font-size: 16px;
+    }
+
+    form label{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .content-about{
+        margin: 0 20px;
+    }
+    
+    .content-about p{
+        font-size: 14px;
+    }
+
+    .cta-all {
+        font-size: 14px;
+    }
+
+    .content-about img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .port-text p {
+        font-size: 14px;
+    }
+
+    .cta-port {
+        font-size: 14px;
+    }
+
+    .port-img img{
+        width: 400px;
+    }
+
+    form label{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .nav-links{
+        padding: 0;
+        justify-content: center;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .content-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-about img{
+        width: 200px;
+        margin: 0;
+        margin-bottom: 20px;
+        box-shadow: 0px 5px 5px black;
+    }
+
+    .port-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port-img img{
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+
+    form{
+        width: 100%;
+    }
+}
+

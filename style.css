@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* generic*/
 :root{
     --primary-color: rgb(1, 181, 174);
@@ -21,6 +25,19 @@ ul{
 a{
     text-decoration: none;
 }
+
+.hr{
+    position: relative;
+    top: -20px;
+    height: 5px;
+    width: 210px;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+}
+
+
+
 
 /* header */
 header{
@@ -99,6 +116,7 @@ header{
     justify-content: center;
     align-items: center;
     margin: 0 100px;
+    margin-top: 40px;
 }
 
 .content-about img{
@@ -142,12 +160,18 @@ header{
 
 .port-content{
     display: flex;
+    margin-top: 40px;
 }
 
 .port-text h3{
     font-size: 25px;
     margin-bottom: 10px;
 }
+
+.port-hr{
+    background-color: black;
+}
+
 
 .port-text{
     padding-right: 10px;
@@ -197,11 +221,16 @@ header{
     color: white;
 }
 
+.contact-hr{
+    width: 250px;
+}
+
 form{
     display: flex;
     flex-direction: column;
     width: 50%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 form label{
@@ -228,6 +257,29 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
 }
 
 
+input[type=submit]{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    box-shadow: 0 5px black;
+    position: relative;
+    transition: background-color 200ms ease;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(228, 225, 225);
+}
+
+input[type=submit]:active{
+    outline: none;
+    top: 5px;
+    box-shadow: none;
+}
+
+
+
 /* footer */
 footer{
     background-color: #333;
@@ -242,5 +294,17 @@ footer{
 
 .penulis a{
     color: white;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sos{
+    color: white;
+    margin: 0 10px;
 }
 

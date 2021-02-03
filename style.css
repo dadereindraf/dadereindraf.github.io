@@ -412,6 +412,10 @@ footer{
 }
 
 @media (max-width: 425px){
+    .text-presentation h1 {
+        font-size: 30px;
+    }
+
     .nav-links{
         justify-content: space-around;
         text-align: center;
